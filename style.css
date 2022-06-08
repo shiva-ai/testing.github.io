@@ -2,17 +2,23 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+
 .header{
     border-bottom: 2px solid black;
     }
 
 .name{
-    font-size: 90px;
+    font-size: 60px;
     font-weight: 100;
     width: fit-content;
     margin: auto;
     padding-top: 1rem ;
     font-family: 'Open Sans', sans-serif;
+}
+
+.intro{
+    font-weight: 500;
+    word-spacing: 0.2rem;
 }
 
 .sections{
@@ -83,6 +89,8 @@ body{
 
 .date{
     padding: 0rem 2rem;
+    font-weight: 700;
+    color: rgb(103, 3, 103);
 }
 
 .research__work{
@@ -114,6 +122,16 @@ body{
     font-weight: 800;
     font-size: 20px;
     margin-bottom: 2rem;
+}
+
+
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
 }
 
 .button {
@@ -164,5 +182,14 @@ body{
         margin: auto;
         display: flex;
         justify-content: center;
+    }
+}
+
+@media(max-width: 600px){
+    .about{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
     }
 }
