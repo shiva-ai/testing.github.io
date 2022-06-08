@@ -131,7 +131,7 @@ body{
     align-items: center;
     width: 90%;
     margin: auto;
-    flex-wrap: wrap;
+    
 }
 
 .button {
@@ -191,5 +191,9 @@ body{
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+    }
+
+    .logos{
+        flex-wrap: wrap;
     }
 }
